@@ -443,6 +443,10 @@ body {
   background-color: #6D6B6B;
   color: #000000;
   line-height: 1.7em
+  -webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;      
+  user-select: none;
 }
 
 img {
@@ -897,4 +901,11 @@ text.region {
 
 ::-webkit-scrollbar-corner {
     background: #000;
+}
+
+#container{
+    -webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;      
+  user-select: none;
 }
